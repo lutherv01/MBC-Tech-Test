@@ -61,7 +61,7 @@ Proyek ini menggunakan vercel sebagai developer.
 3. Import dengan repository yang sesuai.
 <div align="center">
   <p>
-      <img width="100%" src="public/vercel1.png">
+      <img width="50%" src="public/vercel1.png">
   </p>
 </div>
 
@@ -71,6 +71,11 @@ Selain itu, proyek ini menggunakan custom domain.
 2. Buka 'Domains'.
 3. Setelah itu 'Add Domain'.
 4. Sesuaikan CNAME dan A, kemudian tunggu beberapa saat.
+<div align="center">
+  <p>
+      <img width="50%" src="public/exa.png">
+  </p>
+</div>
 
 ## SSL Configuration
 
@@ -79,6 +84,11 @@ Konfigurasi SSL dapat dilihat pada 'Project' -> 'Project Settings' -> Domain. Pa
 1. mbc-tech-test.my.id
 2. www.mbc-tech-test.my.id
 3. mbc-tech-test.vercel.app
+<div align="center">
+  <p>
+      <img width="50%" src="public/vercel2.png">
+  </p>
+</div>
 
 ## Backend
 
@@ -86,6 +96,15 @@ Pada proyek ini, konfigurasi backend tidak dilakukan. EmailJS langsung secara ot
 
 1. Import EmailJS
 2. Buat template email pada EmailJS
+<div align="center">
+  <p>
+      <img width="50%" src="public/emailjs.png">
+  </p>
+</div>
 
+<div align="center">
+  <p>
+      <img width="50%" src="public/email.png">
+  </p>
+</div>
 ---
-
