@@ -60,7 +60,7 @@ Proyek ini menggunakan vercel sebagai developer.
 2. Buka vercel dan kaitkan dengan akun github.
 3. Import dengan repository yang sesuai.
 
-   ![Import_mbc](./public/@vercel1.png)
+   ![Import_mbc](@vercel1.png)
 
 Selain itu, proyek ini menggunakan custom domain.
 
