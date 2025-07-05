@@ -4,23 +4,49 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ```
 mbc/
-├── public/           # Static assets (images, logos, etc.)
-├── src/
-│   ├── app/          # Next.js app directory (pages, layouts, styles)
-│   │   ├── divisi/   # Divisi (division) page
-│   │   ├── kontak/   # Contact page
-│   │   ├── tentang/  # About/Developer page
-│   │   ├── layout.js # Root layout
-│   │   └── globals.css # Global styles
-│   └── components/   # Reusable React components (Header, Footer, etc.)
-├── package.json      # Project dependencies and scripts
-├── next.config.mjs   # Next.js configuration
-└── ...               # Other config and lock files
+├── eslint.config.mjs
+├── jsconfig.json
+├── next.config.mjs
+├── package-lock.json
+├── package.json
+├── postcss.config.mjs
+├── public/
+│   ├── 1.jpg
+│   ├── 2.jpg
+│   ├── 3.webp
+│   ├── 4.jpg
+│   ├── file.svg
+│   ├── globe.svg
+│   ├── mbc_logo.png
+│   ├── ncm_logo.png
+│   ├── next.svg
+│   ├── vercel.svg
+│   └── window.svg
+├── README.md
+└── src/
+    ├── app/
+    │   ├── divisi/
+    │   │   └── page.jsx
+    │   ├── favicon.ico
+    │   ├── globals.css
+    │   ├── kontak/
+    │   │   └── page.jsx
+    │   ├── layout.js
+    │   ├── page.jsx
+    │   └── tentang/
+    │       └── page.jsx
+    └── components/
+        ├── About.jsx
+        ├── Footer.jsx
+        ├── Header.jsx
+        ├── Hero.jsx
+        └── VisionMission.jsx
 ```
 
-- **`src/app/`**: Main application pages and layouts.
-- **`src/components/`**: Shared UI components.
-- **`public/`**: Static files served at the root URL.
+- **`src/app/`**: Main application pages, layouts, and global styles.
+- **`src/components/`**: Shared React components (Header, Footer, etc.).
+- **`public/`**: Static files and images served at the root URL.
+- **Config files**: Project, ESLint, PostCSS, and Next.js configuration files at the root.
 
 ## Local Installation
 
