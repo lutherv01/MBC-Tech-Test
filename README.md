@@ -36,7 +36,6 @@ mbc/
         └── VisionMission.jsx
 ```
 
-
 ## Instalasi
 
 1. **Clone repository:**
@@ -56,19 +55,17 @@ mbc/
 ## Deployment
 
 Proyek ini menggunakan vercel sebagai developer.
-    1. Proyek disimpan pada repository github.
-    2. Buka vercel dan kaitkan dengan akun github.
-    3. Import dengan repository yang sesuai.
-    
-    ![Import Git Repository Screenshot](public/@vercel1.png)
 
-Selain itu, proyek ini menggunakan custom domain.
-    1. Buka 'Project Settings'.
-    2. Buka 'Domains'.
-    3. Setelah itu 'Add Domain'.
-    4. Sesuaikan CNAME dan A, kemudian tunggu beberapa saat.
+1. Proyek disimpan pada repository github.
+2. Buka vercel dan kaitkan dengan akun github.
+3. Import dengan repository yang sesuai.
+
+   ![Import_mbc](public/@vercel1.png)
+
+Selain itu, proyek ini menggunakan custom domain. 1. Buka 'Project Settings'. 2. Buka 'Domains'. 3. Setelah itu 'Add Domain'. 4. Sesuaikan CNAME dan A, kemudian tunggu beberapa saat.
 
 ## SSL Configuration
+
 - **Vercel:** SSL is automatic for all deployments and custom domains.
 - **Manual (Nginx example):**
 
