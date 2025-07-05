@@ -73,7 +73,7 @@ Selain itu, proyek ini menggunakan custom domain.
 4. Sesuaikan CNAME dan A, kemudian tunggu beberapa saat.
 <div align="center">
   <p>
-      <img width="50%" src="public/exa.png">
+      <img width="50%" src="public/exa.jpg">
   </p>
 </div>
 
