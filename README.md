@@ -60,9 +60,14 @@ Proyek ini menggunakan vercel sebagai developer.
 2. Buka vercel dan kaitkan dengan akun github.
 3. Import dengan repository yang sesuai.
 
-   ![Import_mbc](public/@vercel1.png)
+   ![Import_mbc](./public/@vercel1.png)
 
-Selain itu, proyek ini menggunakan custom domain. 1. Buka 'Project Settings'. 2. Buka 'Domains'. 3. Setelah itu 'Add Domain'. 4. Sesuaikan CNAME dan A, kemudian tunggu beberapa saat.
+Selain itu, proyek ini menggunakan custom domain.
+
+1. Buka 'Project Settings'.
+2. Buka 'Domains'.
+3. Setelah itu 'Add Domain'.
+4. Sesuaikan CNAME dan A, kemudian tunggu beberapa saat.
 
 ## SSL Configuration
 
