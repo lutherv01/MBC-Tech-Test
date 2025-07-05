@@ -1,6 +1,10 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+#MBC Laboratory Landing Page
 
-## Project Structure
+Pembuatan landing page MBC Laboratory yang menampilkan informasi aktual dan terkini mengenai MBC Laboratory dan dibuat dengan NextJS dan EmailJS yang mana pengunjung dapat meninggalkan pesan yang akan terkirim secara otomatis melalui email.
+
+Site dapat dikunjungi di [ http://www.mbc-tech-test.my.id ]
+
+## Struktur Proyek
 
 ```
 mbc/
@@ -10,32 +14,21 @@ mbc/
 ├── package-lock.json
 ├── package.json
 ├── postcss.config.mjs
-├── public/
-│   ├── 1.jpg
-│   ├── 2.jpg
-│   ├── 3.webp
-│   ├── 4.jpg
-│   ├── file.svg
-│   ├── globe.svg
-│   ├── mbc_logo.png
-│   ├── ncm_logo.png
-│   ├── next.svg
-│   ├── vercel.svg
-│   └── window.svg
+├── public/ #THIS CONTAINS ASSET (IMAGE)
 ├── README.md
 └── src/
     ├── app/
     │   ├── divisi/
-    │   │   └── page.jsx
+    │   │   └── page.jsx #Halaman Divisi
+    │   ├── kontak/
+    │   │   └── page.jsx #Halaman Kontak
+    │   |── tentang/
+    │   |   └── page.jsx #Halaman Tentang atau Developer
     │   ├── favicon.ico
     │   ├── globals.css
-    │   ├── kontak/
-    │   │   └── page.jsx
     │   ├── layout.js
-    │   ├── page.jsx
-    │   └── tentang/
-    │       └── page.jsx
-    └── components/
+    │   └── page.jsx #Halaman Utama
+    └── components/ #Komponen UI Seperti Header, Footer, dan lain sebagainya
         ├── About.jsx
         ├── Footer.jsx
         ├── Header.jsx
@@ -43,56 +36,39 @@ mbc/
         └── VisionMission.jsx
 ```
 
-- **`src/app/`**: Main application pages, layouts, and global styles.
-- **`src/components/`**: Shared React components (Header, Footer, etc.).
-- **`public/`**: Static files and images served at the root URL.
-- **Config files**: Project, ESLint, PostCSS, and Next.js configuration files at the root.
 
-## Local Installation
+## Instalasi
 
-1. **Clone the repository:**
+1. **Clone repository:**
    ```bash
    git clone <your-repo-url>
    cd mbc
    ```
-2. **Install dependencies:**
+2. **Install framework:**
    ```bash
    npm install
-   # or
-   yarn install
    ```
-3. **Run the development server:**
+3. **Jalankan proyek secara lokal:**
    ```bash
    npm run dev
-   # or
-   yarn dev
    ```
-4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## Deployment
 
-### Deploy on Vercel (Recommended)
+Proyek ini menggunakan vercel sebagai developer.
+    1. Proyek disimpan pada repository github.
+    2. Buka vercel dan kaitkan dengan akun github.
+    3. Import dengan repository yang sesuai.
+    
+    ![Import Git Repository Screenshot](public/@vercel1.png)
 
-- Push your code to GitHub/GitLab/Bitbucket.
-- Go to [Vercel](https://vercel.com/import) and import your project.
-- Set up environment variables if needed.
-- Vercel handles SSL automatically for custom domains.
+Selain itu, proyek ini menggunakan custom domain.
+    1. Buka 'Project Settings'.
+    2. Buka 'Domains'.
+    3. Setelah itu 'Add Domain'.
+    4. Sesuaikan CNAME dan A, kemudian tunggu beberapa saat.
 
-### Manual Deployment
-
-1. **Build the app:**
-   ```bash
-   npm run build
-   ```
-2. **Start the production server:**
-   ```bash
-   npm start
-   ```
-3. **For custom domains:**
-   - Use a reverse proxy (e.g., Nginx) to serve your app and handle SSL (see below).
-
-## SSL Configuration (Manual/Custom Domain)
-
+## SSL Configuration
 - **Vercel:** SSL is automatic for all deployments and custom domains.
 - **Manual (Nginx example):**
 
